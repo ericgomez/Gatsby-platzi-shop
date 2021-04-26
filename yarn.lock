@@ -2639,7 +2639,7 @@
   "resolved" "https://registry.npmjs.org/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.16.1.tgz"
   "version" "2.16.1"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", "babel-plugin-styled-components@>1.5.0":
   "integrity" "sha512-FEiD7l5ZABdJPpLssKXjBUJMYqzbcNzBowfXDCdJhOpbhWiewapUaY+LZGT8R4Jg2TwOjGjG4RKeyrO5p9sBkA=="
   "resolved" "https://registry.npmjs.org/babel-plugin-styled-components/-/babel-plugin-styled-components-1.12.0.tgz"
   "version" "1.12.0"
@@ -6357,6 +6357,13 @@
   "resolved" "https://registry.npmjs.org/gatsby-plugin-stripe/-/gatsby-plugin-stripe-1.2.4.tgz"
   "version" "1.2.4"
 
+"gatsby-plugin-styled-components@^3.10.0":
+  "integrity" "sha512-CDNNvRxLS4dsQI2fv57T+0VUqapRtiDXm6SUsxyuVuEhJCyDGu1g9jg+9ty0HfUEDcW8JexlRJO5srkdYp1x1g=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.10.0.tgz"
+  "version" "3.10.0"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
 "gatsby-plugin-typescript@^2.12.1":
   "integrity" "sha512-p32qJVDi5Xw1Oo5vLMUXdRBxSDlMrfxTGb7etMAsVfyLRlRhMLb2YsuXJIvN1IfybQ6Z3EbhlH293cpxn5jozg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.12.1.tgz"
@@ -6534,7 +6541,7 @@
     "semver" "^7.3.4"
     "sharp" "^0.27.0"
 
-"gatsby@^2.0.0", "gatsby@^2.0.100", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.8.8", "gatsby@>=1", "gatsby@>=2.0.15", "gatsby@>2.0.15":
+"gatsby@^2.0.0", "gatsby@^2.0.100", "gatsby@^2.0.32", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.25.0", "gatsby@^2.8.8", "gatsby@>=1", "gatsby@>=2.0.15", "gatsby@>2.0.15":
   "integrity" "sha512-CfaNIIoKbBVD+4Sao+PDnxc3nN02M//Jh8cK2rLqRtzFZ09dboUOmjsRW79gf4/zc4CV1gMV59TVrYfKolU5bA=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-2.32.12.tgz"
   "version" "2.32.12"
@@ -13031,7 +13038,7 @@
   dependencies:
     "inline-style-parser" "0.1.1"
 
-"styled-components@^4.3.1", "styled-components@>= 2":
+"styled-components@^4.3.1", "styled-components@>= 2", "styled-components@>=2.0.0":
   "integrity" "sha512-RNqj14kYzw++6Sr38n7197xG33ipEOktGElty4I70IKzQF1jzaD1U4xQ+Ny/i03UUhHlC5NWEO+d8olRCDji6g=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-4.4.1.tgz"
   "version" "4.4.1"
